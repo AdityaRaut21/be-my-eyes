@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_container"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+
+    <TextView
+        android:id="@+id/txtScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21dp"
+        android:maxLength="16"
+        android:padding="0dp"
+        android:textColor="#fff"
+        android:textSize="90sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtInput"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:background="#FFF"
+        android:gravity="left|center_vertical"
+        android:hint="@string/input"
+        android:maxLength="16"
+        android:padding="12dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#42485A"
+        android:textSize="30sp"
+        tools:ignore="RtlHardcoded" />
+
+    <ImageButton
+        android:id="@+id/btnSpeak"
+        android:layout_width="match_parent"
+        android:layout_height="432dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/calci"
+        android:text="@string/blind_calculator"
+        android:textSize="45dp" />
+
+</RelativeLayout>
